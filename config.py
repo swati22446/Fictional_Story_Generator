@@ -7,7 +7,7 @@ ANTHROPIC_API_KEY = "your-anthropic-api-key-here"
 ANTHROPIC_MODEL = "claude-3-sonnet-20240229"
 
 # Alternative: Google Gemini API
-GOOGLE_API_KEY = "AIzaSyDnPNH93leMbtcdWt7G8IYAJRtkRoM9mPE"  # ✅ With quotes!
+GOOGLE_API_KEY = "Your-google-api-key"  # ✅ With quotes!
 
 # Default AI Provider
 DEFAULT_PROVIDER = "google"  # Also in quotes!
