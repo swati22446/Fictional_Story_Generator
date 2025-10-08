@@ -1,0 +1,13 @@
+# OpenAI API Configuration
+OPENAI_API_KEY = "your-openai-api-key-here"
+OPENAI_MODEL = "gpt-3.5-turbo"
+
+# Alternative: Anthropic Claude API
+ANTHROPIC_API_KEY = "your-anthropic-api-key-here"
+ANTHROPIC_MODEL = "claude-3-sonnet-20240229"
+
+# Alternative: Google Gemini API
+GOOGLE_API_KEY = "AIzaSyDnPNH93leMbtcdWt7G8IYAJRtkRoM9mPE"  # ✅ With quotes!
+
+# Default AI Provider
+DEFAULT_PROVIDER = "google"  # Also in quotes!
