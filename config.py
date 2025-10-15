@@ -7,11 +7,7 @@ ANTHROPIC_API_KEY = "your-anthropic-api-key-here"
 ANTHROPIC_MODEL = "claude-3-sonnet-20240229"
 
 # Alternative: Google Gemini API
-GOOGLE_API_KEY = "your-google-api-key-here"
+GOOGLE_API_KEY = "AIzaSyDnPNH93leMbtcdWt7G8IYAJRtkRoM9mPE"  # ✅ With quotes!
 
-# Default AI Provider (options: "openai", "anthropic", "google", "local")
-DEFAULT_PROVIDER = "openai"
-
-# Story generation settings
-MAX_TOKENS = 2000
-TEMPERATURE = 0.8  # Creativity level (0.0 to 1.0)
+# Default AI Provider
+DEFAULT_PROVIDER = "google"  # Also in quotes!
