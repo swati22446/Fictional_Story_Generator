@@ -1,5 +1,5 @@
-from FictionalStory_AI.ai_engine import AIStoryEngine
-from FictionalStory_AI.story_templates import GENRES, THEMES
+from ai_engine import AIStoryEngine
+from story_templates import GENRES, THEMES
 
 class StoryGenerator:
     def __init__(self, ai_provider: str = "openai"):
@@ -102,3 +102,4 @@ Task:
 Create a cohesive story that feels like it was written by the same author throughout."""
         
         return prompt
+

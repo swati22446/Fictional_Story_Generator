@@ -1,5 +1,5 @@
 import tkinter as tk
-from FictionalStory_AI.gui import StoryGeneratorGUI
+from gui import StoryGeneratorGUI
 
 def main():
     root = tk.Tk()

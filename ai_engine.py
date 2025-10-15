@@ -6,7 +6,7 @@
 import requests
 import json
 from typing import Optional
-import FictionalStory_AI.config as config
+import config
 
 class AIStoryEngine:
     def __init__(self, provider: str = None):
@@ -101,8 +101,8 @@ class AIStoryEngine:
         if not self.api_key or self.api_key == "your-google-api-key-here":
             return self._generate_local(prompt)
         
-        # Updated endpoint for Gemini Pro
-        url = f"https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key={self.api_key}"
+        # Updated endpoint for Gemini 1.5 Flash (latest working version)
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key={self.api_key}"
         headers = {"Content-Type": "application/json"}
         
         data = {
